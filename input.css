@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    
+}
+body{
+    background-color: #171717;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.ulo{
+    display: flex;
+    color: white;
+    gap: 25px;
+    list-style: none;
+}
+.ulone{
+    display: none;
+}
+.bar{
+    display: none;
+    
+}
+.ultwo{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+/* bannar part  */
+
+.head h1{
+    font-size: 700;
+    color: white;
+}
+.head p{
+    font-size: 18px;
+    color: #828282;
+}
+
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn{
+    width: 143px;
+    height: 42px;
+    background-color: #27AE60;
+    border: none;
+}
+.btnn{
+    width: 143px;
+    height: 42px;
+    background-color: #202020;
+    color: white;
+    border: none;
+    border: 1px solid white;
+
+}
+.twobtn{
+    display: flex;
+    gap: 10px;
+   
+}
+
+/* 3rd part  */
+.threepart{
+    text-align: center;
+}
+.about h1{
+    font-size: 700;
+    color: white;
+}
+.about p{
+    font-size: 18px;
+    color: white;
+    
+}
+.card{
+    width: 180px;
+    height: 140px;
+
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    background-color: #2f2727;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.circle1{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: green;
+}
+.full{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.full h2{
+    margin: 0;
+    margin-top: 20px;
+}
+.full p{
+    margin: 0;
+}
+.dot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* 4th part */
+.four{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-top: 80px;
+}
+.main{
+    width: 280px;
+    height: 200px;
+    background-color: #3d3b3b;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.main p{
+    color: #535353;
+    font-size: 36px;
+    
+}
+.done{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fivepart{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+.count h3{
+    font-size: 72px;
+    color: #4F4F4F;
+    margin: 0;
+}
+.count p{
+    font-size: 24px;
+    color: #27AE60;
+    margin: 0 ;
+    text-align: center;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* footer part  */
+.last{
+     margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    background-color: #202020;
+    font-size: 14px;
+    width: 358px;
+    height: 70px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.inputone{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+textarea{
+    width: 740px;
+    height: 150px;
+    background-color: transparent;
+    color: white;
+    
+}
+textarea[name="text"]::placeholder{
+    
+    color: white;
+    font-size: 14px;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}

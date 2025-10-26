@@ -1,0 +1,192 @@
+@media (max-width: 768px){
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.logo{
+    margin: 0 auto;
+}
+.ulo{
+   display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* banna part  */
+  .bannar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.logo img{
+    width: 500px;
+    height: auto;
+    margin: 0 auto; 
+}
+/* 4th part  */ 
+.done{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+/* 5th part  */
+.count{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    gap: 50px;
+}
+/* footer part  */
+.last{
+   font-size: 30px;
+}
+}
+
+
+
+
+
+@media (max-width: 576px) {
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+.logo{
+    margin: 0 auto;
+}
+.ulo{
+   display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* bannar part  */
+.bannar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.logo img{
+    width: 400px;
+    height: auto;
+    margin: 0 auto; 
+}
+/* 3rd part  */
+.about p{
+    font-size: 30px;
+}
+/* 4th part  */ 
+.done{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+/* 5th part  */
+.count{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    gap: 50px;
+}
+/* footer part  */
+.last{
+   font-size: 30px;
+}
+}
+
+
+
+
+
+@media (max-width: 480px) {
+ 
+.container{
+        width: 90%;
+        padding: 0 10px;
+
+    }
+    .logoone img{
+        width: 150px;
+        height: auto;
+        
+    }
+    .under{
+        display: none; 
+     
+}
+.bar{
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* bannar part  */
+.bannar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.logo img{
+    width: 150px !important;
+    height: auto;
+    margin: 0 auto;
+    
+     
+}
+/* 3rd part  */
+.about p{
+    font-size: 20px;
+}
+.dot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+/* 4th part  */
+.four{
+    font-size: 25px;
+}
+.done{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.main{
+    width: 220px;
+    height: 150px;
+}
+/* 5th part  */
+.count{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    gap: 50px;
+}
+/* footer part  */
+.last{
+   font-size: 30px;
+}
+}
+
+
