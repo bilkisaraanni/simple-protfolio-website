@@ -148,7 +148,7 @@
 }
 
 /* 5th part  */
-.count{
+.allcount{
     display: flex;
     flex-direction: column;
     gap: 10px;

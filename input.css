@@ -202,6 +202,16 @@ body{
     margin-top: 50px;
 }
 
+.totalcount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.persent{
+    display: flex;
+    gap: 10px;
+}
 /* footer part  */
 .last{
      margin-top: 100px;
