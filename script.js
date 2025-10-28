@@ -68,8 +68,6 @@ let name = document.querySelector('.name');
 let lastname = document.querySelector('.lastname');
 let email = document.querySelector('.email');
 let phon = document.querySelector('.phon');
-
-
 let sendbtn = document.querySelector('.sendbtn');
 let error = document.querySelector('.error');
 
