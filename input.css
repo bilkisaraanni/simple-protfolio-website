@@ -146,6 +146,25 @@ body{
     background-color: #3d3b3b;
     margin-top: 100px;
     padding: 50px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.main::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,255,0,0.1);
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+
+}
+.main:hover::after{
+    transform: translateY(0%);
 }
 
 .main p{
@@ -158,6 +177,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+/* 5th part  */
 
 .fivepart{
     margin-top: 100px;
@@ -165,18 +185,18 @@ body{
     font-size: 48px;
     color: white;
 }
-.count h3{
+.allcount h3{
     font-size: 72px;
     color: #4F4F4F;
     margin: 0;
 }
-.count p{
+.allcount p{
     font-size: 24px;
     color: #27AE60;
     margin: 0 ;
     text-align: center;
 }
-.count{
+.allcount{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -194,6 +214,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
 input{
     background-color: #202020;
@@ -203,6 +224,7 @@ input{
     color: white;
     border: none;
     border-bottom: 1px solid white;
+   
 }
 
 .inputone{
@@ -229,4 +251,36 @@ textarea[name="text"]::placeholder{
     justify-content: center;
     margin-top: 20px;
     
+}
+
+.sendbtn{
+    width: 143px;
+    height: 42px;
+    background-color: #27AE60;
+    border: none;
+    color: white;
+    
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.error{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    animation: leftside;
+    animation-duration: 5s;
+}
+
+@keyframes leftside {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
